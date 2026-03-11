@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# Environment variables (secrets!)
+.env
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# ML model files (large)
+app/ml/models/*.pkl
+app/ml/models/*.joblib
+app/ml/models/*.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Upload files
+static/product_images/
